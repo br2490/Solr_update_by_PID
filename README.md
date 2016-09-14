@@ -22,3 +22,12 @@ Solr MUST be optimized after running this script. @TODO: explain how to opt Solr
 How to use:
 --
 @TODO
+
+
+Things to consider for development if this gets used more than once a year :)
+--
+- Read in pids from CSV (level: easy)
+- Automatically deal with URL formatting (easy)
+- Deal with authentication to Tomcat & FGS appropriately (moderate)
+- Error checking (moderate)
+- Tell Solr to `optimize` (hard (deps: Solr version, index name, authentication))
